@@ -1,0 +1,158 @@
+head {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f6f6f6;
+}
+/* header */
+
+header {
+  width: 100%;
+  background-color: #2980b9;
+}
+header .cont {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  header .cont {
+    flex-direction: column;
+  }
+}
+header .cont h1 {
+  color: white;
+}
+header .cont ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .cont ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+header .cont ul li a {
+  color: white;
+  height: 71px;
+}
+header .cont ul li:hover {
+  background-color: #3498db;
+}
+
+/* header */
+/* encryption */
+.conte {
+  margin-top: 20px;
+}
+.encryption {
+  text-align: center;
+  background-color: white;
+}
+.encryption .header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2980b9;
+  color: white;
+}
+.encryption .form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.encryption .planeText {
+  padding: 20px;
+  margin: 0 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: solid 3px #2980b9;
+}
+.encryption .planeKey {
+  padding: 20px;
+  margin: 0 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: solid 3px #2980b9;
+}
+.encryption .encryptionButton {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -ms-border-radius: 30px 30px 30px 30px;
+  -o-border-radius: 30px 30px 30px 30px;
+}
+@media (max-width: 768px) {
+  .encryption .encryptionButton {
+    margin-top: 20px;
+  }
+}
+.resultCont {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #2980b9;
+}
+@media (max-width: 768px) {
+  .resultCont {
+    flex-direction: column;
+  }
+}
+/* encryption */
+
+/*decryption*/
+.decryption {
+  text-align: center;
+  background-color: white;
+}
+.decryption .header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2980b9;
+  color: white;
+}
+.decryption .form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.decryption .cypherText {
+  padding: 20px;
+  margin: 0 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: solid 3px #2980b9;
+}
+.decryption .cypherKey {
+  padding: 20px;
+  margin: 0 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: solid 3px #2980b9;
+}
+.decryption .decryptionButton {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+  -ms-border-radius: 30px 30px 30px 30px;
+  -o-border-radius: 30px 30px 30px 30px;
+}
+@media (max-width: 768px) {
+  .decryption .decryptionButton {
+    margin-top: 20px;
+  }
+}
+/* decryption */
